@@ -1,0 +1,212 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Covid-19",
+		"_postman_id": "ff290b7d-16d2-8a71-ebe3-31ef273ed225",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Region",
+			"request": {
+				"url": "https://api-covid-19.glitch.me/region",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Mendapatkan Data Semua Negara"
+			},
+			"response": [
+				{
+					"id": "4c09c82f-4ac0-4f7d-a0cf-bf80710e2131",
+					"name": "https://api-covid-19.glitch.me/region",
+					"originalRequest": {
+						"url": "https://api-covid-19.glitch.me/region",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "13758",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 10 Apr 2020 05:28:41 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"35be-IAE1+V6CWfYAvaBC9aa1hIjYsbU\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 1178,
+					"body": "[{\"nama_negara\":\"US\",\"terkonfirmasi\":466033,\"sembuh\":25988,\"meninggal\":16690},{\"nama_negara\":\"Spain\",\"terkonfirmasi\":153222,\"sembuh\":52165,\"meninggal\":15447},{\"nama_negara\":\"Italy\",\"terkonfirmasi\":143626,\"sembuh\":28470,\"meninggal\":18279},{\"nama_negara\":\"France\",\"terkonfirmasi\":118783,\"sembuh\":23441,\"meninggal\":12228},{\"nama_negara\":\"Germany\",\"terkonfirmasi\":118235,\"sembuh\":52407,\"meninggal\":2607},{\"nama_negara\":\"China\",\"terkonfirmasi\":82924,\"sembuh\":77758,\"meninggal\":3340},{\"nama_negara\":\"Iran\",\"terkonfirmasi\":66220,\"sembuh\":32309,\"meninggal\":4110},{\"nama_negara\":\"United Kingdom\",\"terkonfirmasi\":65872,\"sembuh\":359,\"meninggal\":7993},{\"nama_negara\":\"Turkey\",\"terkonfirmasi\":42282,\"sembuh\":2142,\"meninggal\":908},{\"nama_negara\":\"Belgium\",\"terkonfirmasi\":24983,\"sembuh\":5164,\"meninggal\":2523},{\"nama_negara\":\"Switzerland\",\"terkonfirmasi\":24051,\"sembuh\":10600,\"meninggal\":948},{\"nama_negara\":\"Netherlands\",\"terkonfirmasi\":21910,\"sembuh\":280,\"meninggal\":2405},{\"nama_negara\":\"Canada\",\"terkonfirmasi\":20747,\"sembuh\":5260,\"meninggal\":509},{\"nama_negara\":\"Brazil\",\"terkonfirmasi\":18176,\"sembuh\":173,\"meninggal\":957},{\"nama_negara\":\"Portugal\",\"terkonfirmasi\":13956,\"sembuh\":205,\"meninggal\":409},{\"nama_negara\":\"Austria\",\"terkonfirmasi\":13244,\"sembuh\":5240,\"meninggal\":295},{\"nama_negara\":\"Korea, South\",\"terkonfirmasi\":10450,\"sembuh\":7117,\"meninggal\":208},{\"nama_negara\":\"Russia\",\"terkonfirmasi\":10131,\"sembuh\":698,\"meninggal\":76},{\"nama_negara\":\"Israel\",\"terkonfirmasi\":9968,\"sembuh\":1011,\"meninggal\":86},{\"nama_negara\":\"Sweden\",\"terkonfirmasi\":9141,\"sembuh\":205,\"meninggal\":793},{\"nama_negara\":\"India\",\"terkonfirmasi\":6725,\"sembuh\":635,\"meninggal\":227},{\"nama_negara\":\"Ireland\",\"terkonfirmasi\":6574,\"sembuh\":25,\"meninggal\":263},{\"nama_negara\":\"Norway\",\"terkonfirmasi\":6219,\"sembuh\":32,\"meninggal\":108},{\"nama_negara\":\"Australia\",\"terkonfirmasi\":6108,\"sembuh\":1472,\"meninggal\":51},{\"nama_negara\":\"Chile\",\"terkonfirmasi\":5972,\"sembuh\":1274,\"meninggal\":57},{\"nama_negara\":\"Denmark\",\"terkonfirmasi\":5830,\"sembuh\":1883,\"meninggal\":237},{\"nama_negara\":\"Poland\",\"terkonfirmasi\":5575,\"sembuh\":284,\"meninggal\":174},{\"nama_negara\":\"Czechia\",\"terkonfirmasi\":5569,\"sembuh\":301,\"meninggal\":112},{\"nama_negara\":\"Japan\",\"terkonfirmasi\":5530,\"sembuh\":685,\"meninggal\":99},{\"nama_negara\":\"Peru\",\"terkonfirmasi\":5256,\"sembuh\":1438,\"meninggal\":138},{\"nama_negara\":\"Romania\",\"terkonfirmasi\":5202,\"sembuh\":647,\"meninggal\":248},{\"nama_negara\":\"Ecuador\",\"terkonfirmasi\":4965,\"sembuh\":339,\"meninggal\":272},{\"nama_negara\":\"Pakistan\",\"terkonfirmasi\":4601,\"sembuh\":572,\"meninggal\":66},{\"nama_negara\":\"Malaysia\",\"terkonfirmasi\":4228,\"sembuh\":1608,\"meninggal\":67},{\"nama_negara\":\"Philippines\",\"terkonfirmasi\":4076,\"sembuh\":124,\"meninggal\":203},{\"nama_negara\":\"Mexico\",\"terkonfirmasi\":3441,\"sembuh\":633,\"meninggal\":194},{\"nama_negara\":\"Indonesia\",\"terkonfirmasi\":3293,\"sembuh\":252,\"meninggal\":280},{\"nama_negara\":\"Saudi Arabia\",\"terkonfirmasi\":3287,\"sembuh\":666,\"meninggal\":44},{\"nama_negara\":\"Luxembourg\",\"terkonfirmasi\":3115,\"sembuh\":500,\"meninggal\":52},{\"nama_negara\":\"United Arab Emirates\",\"terkonfirmasi\":2990,\"sembuh\":268,\"meninggal\":14},{\"nama_negara\":\"Serbia\",\"terkonfirmasi\":2867,\"sembuh\":0,\"meninggal\":66},{\"nama_negara\":\"Panama\",\"terkonfirmasi\":2752,\"sembuh\":16,\"meninggal\":66},{\"nama_negara\":\"Finland\",\"terkonfirmasi\":2605,\"sembuh\":300,\"meninggal\":42},{\"nama_negara\":\"Thailand\",\"terkonfirmasi\":2473,\"sembuh\":940,\"meninggal\":33},{\"nama_negara\":\"Qatar\",\"terkonfirmasi\":2376,\"sembuh\":206,\"meninggal\":6},{\"nama_negara\":\"Dominican Republic\",\"terkonfirmasi\":2349,\"sembuh\":80,\"meninggal\":118},{\"nama_negara\":\"Colombia\",\"terkonfirmasi\":2223,\"sembuh\":174,\"meninggal\":69},{\"nama_negara\":\"Greece\",\"terkonfirmasi\":1955,\"sembuh\":269,\"meninggal\":87},{\"nama_negara\":\"South Africa\",\"terkonfirmasi\":1934,\"sembuh\":95,\"meninggal\":18},{\"nama_negara\":\"Singapore\",\"terkonfirmasi\":1910,\"sembuh\":460,\"meninggal\":6},{\"nama_negara\":\"Argentina\",\"terkonfirmasi\":1894,\"sembuh\":365,\"meninggal\":79},{\"nama_negara\":\"Ukraine\",\"terkonfirmasi\":1892,\"sembuh\":45,\"meninggal\":57},{\"nama_negara\":\"Egypt\",\"terkonfirmasi\":1699,\"sembuh\":348,\"meninggal\":118},{\"nama_negara\":\"Algeria\",\"terkonfirmasi\":1666,\"sembuh\":347,\"meninggal\":235},{\"nama_negara\":\"Iceland\",\"terkonfirmasi\":1648,\"sembuh\":688,\"meninggal\":6},{\"nama_negara\":\"Belarus\",\"terkonfirmasi\":1486,\"sembuh\":139,\"meninggal\":16},{\"nama_negara\":\"Croatia\",\"terkonfirmasi\":1407,\"sembuh\":219,\"meninggal\":20},{\"nama_negara\":\"Morocco\",\"terkonfirmasi\":1374,\"sembuh\":109,\"meninggal\":97},{\"nama_negara\":\"Moldova\",\"terkonfirmasi\":1289,\"sembuh\":50,\"meninggal\":29},{\"nama_negara\":\"New Zealand\",\"terkonfirmasi\":1283,\"sembuh\":373,\"meninggal\":2},{\"nama_negara\":\"Iraq\",\"terkonfirmasi\":1232,\"sembuh\":496,\"meninggal\":69},{\"nama_negara\":\"Estonia\",\"terkonfirmasi\":1207,\"sembuh\":83,\"meninggal\":24},{\"nama_negara\":\"Slovenia\",\"terkonfirmasi\":1124,\"sembuh\":128,\"meninggal\":43},{\"nama_negara\":\"Lithuania\",\"terkonfirmasi\":999,\"sembuh\":8,\"meninggal\":16},{\"nama_negara\":\"Hungary\",\"terkonfirmasi\":980,\"sembuh\":96,\"meninggal\":66},{\"nama_negara\":\"Azerbaijan\",\"terkonfirmasi\":926,\"sembuh\":101,\"meninggal\":9},{\"nama_negara\":\"Armenia\",\"terkonfirmasi\":921,\"sembuh\":138,\"meninggal\":10},{\"nama_negara\":\"Kuwait\",\"terkonfirmasi\":910,\"sembuh\":111,\"meninggal\":1},{\"nama_negara\":\"Bahrain\",\"terkonfirmasi\":887,\"sembuh\":519,\"meninggal\":5},{\"nama_negara\":\"Bosnia and Herzegovina\",\"terkonfirmasi\":858,\"sembuh\":101,\"meninggal\":35},{\"nama_negara\":\"Cameroon\",\"terkonfirmasi\":803,\"sembuh\":61,\"meninggal\":12},{\"nama_negara\":\"Kazakhstan\",\"terkonfirmasi\":802,\"sembuh\":60,\"meninggal\":9},{\"nama_negara\":\"Diamond Princess\",\"terkonfirmasi\":712,\"sembuh\":619,\"meninggal\":11},{\"nama_negara\":\"Slovakia\",\"terkonfirmasi\":701,\"sembuh\":23,\"meninggal\":2},{\"nama_negara\":\"North Macedonia\",\"terkonfirmasi\":663,\"sembuh\":37,\"meninggal\":30},{\"nama_negara\":\"Tunisia\",\"terkonfirmasi\":643,\"sembuh\":25,\"meninggal\":25},{\"nama_negara\":\"Bulgaria\",\"terkonfirmasi\":618,\"sembuh\":48,\"meninggal\":24},{\"nama_negara\":\"Latvia\",\"terkonfirmasi\":589,\"sembuh\":16,\"meninggal\":3},{\"nama_negara\":\"Andorra\",\"terkonfirmasi\":583,\"sembuh\":58,\"meninggal\":25},{\"nama_negara\":\"Lebanon\",\"terkonfirmasi\":582,\"sembuh\":67,\"meninggal\":19},{\"nama_negara\":\"Uzbekistan\",\"terkonfirmasi\":582,\"sembuh\":38,\"meninggal\":3},{\"nama_negara\":\"Cyprus\",\"terkonfirmasi\":564,\"sembuh\":53,\"meninggal\":10},{\"nama_negara\":\"Costa Rica\",\"terkonfirmasi\":539,\"sembuh\":30,\"meninggal\":3},{\"nama_negara\":\"Cuba\",\"terkonfirmasi\":515,\"sembuh\":28,\"meninggal\":15},{\"nama_negara\":\"Afghanistan\",\"terkonfirmasi\":484,\"sembuh\":32,\"meninggal\":15},{\"nama_negara\":\"Uruguay\",\"terkonfirmasi\":473,\"sembuh\":206,\"meninggal\":7},{\"nama_negara\":\"Oman\",\"terkonfirmasi\":457,\"sembuh\":109,\"meninggal\":3},{\"nama_negara\":\"Cote d'Ivoire\",\"terkonfirmasi\":444,\"sembuh\":52,\"meninggal\":3},{\"nama_negara\":\"Burkina Faso\",\"terkonfirmasi\":443,\"sembuh\":146,\"meninggal\":24},{\"nama_negara\":\"Niger\",\"terkonfirmasi\":410,\"sembuh\":40,\"meninggal\":11},{\"nama_negara\":\"Albania\",\"terkonfirmasi\":409,\"sembuh\":165,\"meninggal\":23},{\"nama_negara\":\"Honduras\",\"terkonfirmasi\":382,\"sembuh\":7,\"meninggal\":23},{\"nama_negara\":\"Taiwan*\",\"terkonfirmasi\":380,\"sembuh\":80,\"meninggal\":5},{\"nama_negara\":\"Ghana\",\"terkonfirmasi\":378,\"sembuh\":3,\"meninggal\":6},{\"nama_negara\":\"Jordan\",\"terkonfirmasi\":372,\"sembuh\":161,\"meninggal\":7},{\"nama_negara\":\"Malta\",\"terkonfirmasi\":337,\"sembuh\":16,\"meninggal\":2},{\"nama_negara\":\"San Marino\",\"terkonfirmasi\":333,\"sembuh\":49,\"meninggal\":34},{\"nama_negara\":\"Bangladesh\",\"terkonfirmasi\":330,\"sembuh\":33,\"meninggal\":21},{\"nama_negara\":\"Mauritius\",\"terkonfirmasi\":314,\"sembuh\":23,\"meninggal\":7},{\"nama_negara\":\"Kyrgyzstan\",\"terkonfirmasi\":298,\"sembuh\":35,\"meninggal\":5},{\"nama_negara\":\"Nigeria\",\"terkonfirmasi\":288,\"sembuh\":51,\"meninggal\":7},{\"nama_negara\":\"Bolivia\",\"terkonfirmasi\":268,\"sembuh\":2,\"meninggal\":19},{\"nama_negara\":\"West Bank and Gaza\",\"terkonfirmasi\":263,\"sembuh\":44,\"meninggal\":1},{\"nama_negara\":\"Vietnam\",\"terkonfirmasi\":255,\"sembuh\":128,\"meninggal\":0},{\"nama_negara\":\"Montenegro\",\"terkonfirmasi\":252,\"sembuh\":4,\"meninggal\":2},{\"nama_negara\":\"Senegal\",\"terkonfirmasi\":250,\"sembuh\":123,\"meninggal\":2},{\"nama_negara\":\"Georgia\",\"terkonfirmasi\":218,\"sembuh\":51,\"meninggal\":3},{\"nama_negara\":\"Congo (Kinshasa)\",\"terkonfirmasi\":215,\"sembuh\":13,\"meninggal\":20},{\"nama_negara\":\"Guinea\",\"terkonfirmasi\":194,\"sembuh\":11,\"meninggal\":0},{\"nama_negara\":\"Sri Lanka\",\"terkonfirmasi\":190,\"sembuh\":49,\"meninggal\":7},{\"nama_negara\":\"Kenya\",\"terkonfirmasi\":184,\"sembuh\":12,\"meninggal\":7},{\"nama_negara\":\"Kosovo\",\"terkonfirmasi\":184,\"sembuh\":30,\"meninggal\":5},{\"nama_negara\":\"Venezuela\",\"terkonfirmasi\":171,\"sembuh\":84,\"meninggal\":9},{\"nama_negara\":\"Djibouti\",\"terkonfirmasi\":140,\"sembuh\":28,\"meninggal\":1},{\"nama_negara\":\"Brunei\",\"terkonfirmasi\":135,\"sembuh\":92,\"meninggal\":1},{\"nama_negara\":\"Paraguay\",\"terkonfirmasi\":129,\"sembuh\":18,\"meninggal\":6},{\"nama_negara\":\"Guatemala\",\"terkonfirmasi\":126,\"sembuh\":17,\"meninggal\":3},{\"nama_negara\":\"Cambodia\",\"terkonfirmasi\":119,\"sembuh\":72,\"meninggal\":0},{\"nama_negara\":\"Rwanda\",\"terkonfirmasi\":113,\"sembuh\":7,\"meninggal\":0},{\"nama_negara\":\"Trinidad and Tobago\",\"terkonfirmasi\":109,\"sembuh\":1,\"meninggal\":8},{\"nama_negara\":\"El Salvador\",\"terkonfirmasi\":103,\"sembuh\":14,\"meninggal\":6},{\"nama_negara\":\"Madagascar\",\"terkonfirmasi\":93,\"sembuh\":11,\"meninggal\":0},{\"nama_negara\":\"Monaco\",\"terkonfirmasi\":84,\"sembuh\":5,\"meninggal\":1},{\"nama_negara\":\"Liechtenstein\",\"terkonfirmasi\":78,\"sembuh\":55,\"meninggal\":1},{\"nama_negara\":\"Mali\",\"terkonfirmasi\":74,\"sembuh\":22,\"meninggal\":7},{\"nama_negara\":\"Togo\",\"terkonfirmasi\":73,\"sembuh\":24,\"meninggal\":3},{\"nama_negara\":\"Barbados\",\"terkonfirmasi\":66,\"sembuh\":11,\"meninggal\":3},{\"nama_negara\":\"Jamaica\",\"terkonfirmasi\":63,\"sembuh\":13,\"meninggal\":4},{\"nama_negara\":\"Congo (Brazzaville)\",\"terkonfirmasi\":60,\"sembuh\":5,\"meninggal\":5},{\"nama_negara\":\"Ethiopia\",\"terkonfirmasi\":56,\"sembuh\":4,\"meninggal\":2},{\"nama_negara\":\"Uganda\",\"terkonfirmasi\":53,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Gabon\",\"terkonfirmasi\":44,\"sembuh\":1,\"meninggal\":1},{\"nama_negara\":\"Bahamas\",\"terkonfirmasi\":41,\"sembuh\":5,\"meninggal\":8},{\"nama_negara\":\"Zambia\",\"terkonfirmasi\":39,\"sembuh\":24,\"meninggal\":1},{\"nama_negara\":\"Guyana\",\"terkonfirmasi\":37,\"sembuh\":8,\"meninggal\":6},{\"nama_negara\":\"Guinea-Bissau\",\"terkonfirmasi\":36,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Eritrea\",\"terkonfirmasi\":33,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Liberia\",\"terkonfirmasi\":31,\"sembuh\":3,\"meninggal\":4},{\"nama_negara\":\"Haiti\",\"terkonfirmasi\":30,\"sembuh\":0,\"meninggal\":2},{\"nama_negara\":\"Burma\",\"terkonfirmasi\":27,\"sembuh\":2,\"meninggal\":3},{\"nama_negara\":\"Benin\",\"terkonfirmasi\":26,\"sembuh\":5,\"meninggal\":1},{\"nama_negara\":\"Tanzania\",\"terkonfirmasi\":25,\"sembuh\":5,\"meninggal\":1},{\"nama_negara\":\"Libya\",\"terkonfirmasi\":24,\"sembuh\":8,\"meninggal\":1},{\"nama_negara\":\"Angola\",\"terkonfirmasi\":19,\"sembuh\":2,\"meninggal\":2},{\"nama_negara\":\"Antigua and Barbuda\",\"terkonfirmasi\":19,\"sembuh\":0,\"meninggal\":2},{\"nama_negara\":\"Maldives\",\"terkonfirmasi\":19,\"sembuh\":13,\"meninggal\":0},{\"nama_negara\":\"Syria\",\"terkonfirmasi\":19,\"sembuh\":4,\"meninggal\":2},{\"nama_negara\":\"Equatorial Guinea\",\"terkonfirmasi\":18,\"sembuh\":3,\"meninggal\":0},{\"nama_negara\":\"Mozambique\",\"terkonfirmasi\":17,\"sembuh\":1,\"meninggal\":0},{\"nama_negara\":\"Dominica\",\"terkonfirmasi\":16,\"sembuh\":5,\"meninggal\":0},{\"nama_negara\":\"Fiji\",\"terkonfirmasi\":16,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Laos\",\"terkonfirmasi\":16,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Mongolia\",\"terkonfirmasi\":16,\"sembuh\":4,\"meninggal\":0},{\"nama_negara\":\"Namibia\",\"terkonfirmasi\":16,\"sembuh\":3,\"meninggal\":0},{\"nama_negara\":\"Sudan\",\"terkonfirmasi\":15,\"sembuh\":2,\"meninggal\":2},{\"nama_negara\":\"Saint Lucia\",\"terkonfirmasi\":14,\"sembuh\":1,\"meninggal\":0},{\"nama_negara\":\"Botswana\",\"terkonfirmasi\":13,\"sembuh\":0,\"meninggal\":1},{\"nama_negara\":\"Eswatini\",\"terkonfirmasi\":12,\"sembuh\":7,\"meninggal\":0},{\"nama_negara\":\"Grenada\",\"terkonfirmasi\":12,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Saint Vincent and the Grenadines\",\"terkonfirmasi\":12,\"sembuh\":1,\"meninggal\":0},{\"nama_negara\":\"Somalia\",\"terkonfirmasi\":12,\"sembuh\":1,\"meninggal\":1},{\"nama_negara\":\"Chad\",\"terkonfirmasi\":11,\"sembuh\":2,\"meninggal\":0},{\"nama_negara\":\"Saint Kitts and Nevis\",\"terkonfirmasi\":11,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Seychelles\",\"terkonfirmasi\":11,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Zimbabwe\",\"terkonfirmasi\":11,\"sembuh\":0,\"meninggal\":3},{\"nama_negara\":\"Suriname\",\"terkonfirmasi\":10,\"sembuh\":4,\"meninggal\":1},{\"nama_negara\":\"Belize\",\"terkonfirmasi\":9,\"sembuh\":0,\"meninggal\":1},{\"nama_negara\":\"MS Zaandam\",\"terkonfirmasi\":9,\"sembuh\":0,\"meninggal\":2},{\"nama_negara\":\"Nepal\",\"terkonfirmasi\":9,\"sembuh\":1,\"meninggal\":0},{\"nama_negara\":\"Central African Republic\",\"terkonfirmasi\":8,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Holy See\",\"terkonfirmasi\":8,\"sembuh\":2,\"meninggal\":0},{\"nama_negara\":\"Malawi\",\"terkonfirmasi\":8,\"sembuh\":0,\"meninggal\":1},{\"nama_negara\":\"Cabo Verde\",\"terkonfirmasi\":7,\"sembuh\":1,\"meninggal\":1},{\"nama_negara\":\"Mauritania\",\"terkonfirmasi\":7,\"sembuh\":2,\"meninggal\":1},{\"nama_negara\":\"Nicaragua\",\"terkonfirmasi\":7,\"sembuh\":0,\"meninggal\":1},{\"nama_negara\":\"Sierra Leone\",\"terkonfirmasi\":7,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Bhutan\",\"terkonfirmasi\":5,\"sembuh\":2,\"meninggal\":0},{\"nama_negara\":\"Gambia\",\"terkonfirmasi\":4,\"sembuh\":2,\"meninggal\":1},{\"nama_negara\":\"Sao Tome and Principe\",\"terkonfirmasi\":4,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Western Sahara\",\"terkonfirmasi\":4,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Burundi\",\"terkonfirmasi\":3,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"South Sudan\",\"terkonfirmasi\":3,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Papua New Guinea\",\"terkonfirmasi\":2,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Timor-Leste\",\"terkonfirmasi\":1,\"sembuh\":0,\"meninggal\":0},{\"nama_negara\":\"Yemen\",\"terkonfirmasi\":1,\"sembuh\":0,\"meninggal\":0}]"
+				}
+			]
+		},
+		{
+			"name": "Get Data With Specific Country",
+			"request": {
+				"url": "https://api-covid-19.glitch.me/region/indonesia",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Mendapatkan Data Covid-19 Berdasarkan Negara\n\nExample : https://api-covid-19.glitch.me/region/(negara)"
+			},
+			"response": [
+				{
+					"id": "08d65cf7-fe21-423b-a753-b6e43a5ad44b",
+					"name": "https://api-covid-19.glitch.me/region/indonesia",
+					"originalRequest": {
+						"url": "https://api-covid-19.glitch.me/region/indonesia",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "77",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 10 Apr 2020 05:29:07 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"4d-CMw3Df49qo3B95dXenMVZuV0zu0\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 415,
+					"body": "{\"nama_negara\":\"indonesia\",\"terkonfirmasi\":3293,\"sembuh\":252,\"meninggal\":280}"
+				}
+			]
+		},
+		{
+			"name": "Get Data Indonesia Province",
+			"request": {
+				"url": "https://api-covid-19.glitch.me/region/indonesia/provinsi",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Mendapatkan Data Covid-19 Di Provinsi Indonesia"
+			},
+			"response": [
+				{
+					"id": "4389e992-870d-4eb3-ac35-1d0297e8a0a1",
+					"name": "https://api-covid-19.glitch.me/region/indonesia/provinsi",
+					"originalRequest": {
+						"url": "https://api-covid-19.glitch.me/region/indonesia/provinsi",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "2772",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 10 Apr 2020 05:27:55 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"ad4-S59EyKEdZKEKZ25HeQeVgXBtBIc\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 1060,
+					"body": "[{\"provinsi\":\"DKI Jakarta\",\"kasus_positiv\":1706,\"kasus_sembuh\":82,\"kasus_kematian\":142},{\"provinsi\":\"Jawa Barat\",\"kasus_positiv\":376,\"kasus_sembuh\":19,\"kasus_kematian\":40},{\"provinsi\":\"Jawa Timur\",\"kasus_positiv\":223,\"kasus_sembuh\":49,\"kasus_kematian\":17},{\"provinsi\":\"Banten\",\"kasus_positiv\":218,\"kasus_sembuh\":7,\"kasus_kematian\":20},{\"provinsi\":\"Jawa Tengah\",\"kasus_positiv\":144,\"kasus_sembuh\":18,\"kasus_kematian\":22},{\"provinsi\":\"Sulawesi Selatan\",\"kasus_positiv\":138,\"kasus_sembuh\":23,\"kasus_kematian\":8},{\"provinsi\":\"Bali\",\"kasus_positiv\":63,\"kasus_sembuh\":18,\"kasus_kematian\":2},{\"provinsi\":\"Sumatera Utara\",\"kasus_positiv\":59,\"kasus_sembuh\":0,\"kasus_kematian\":4},{\"provinsi\":\"Daerah Istimewa Yogyakarta\",\"kasus_positiv\":41,\"kasus_sembuh\":6,\"kasus_kematian\":7},{\"provinsi\":\"Papua\",\"kasus_positiv\":38,\"kasus_sembuh\":3,\"kasus_kematian\":2},{\"provinsi\":\"Kalimantan Timur\",\"kasus_positiv\":32,\"kasus_sembuh\":6,\"kasus_kematian\":1},{\"provinsi\":\"Kepulauan Riau\",\"kasus_positiv\":22,\"kasus_sembuh\":2,\"kasus_kematian\":1},{\"provinsi\":\"Kalimantan Selatan\",\"kasus_positiv\":22,\"kasus_sembuh\":0,\"kasus_kematian\":2},{\"provinsi\":\"Kalimantan Tengah\",\"kasus_positiv\":20,\"kasus_sembuh\":6,\"kasus_kematian\":0},{\"provinsi\":\"Sumatera Barat\",\"kasus_positiv\":18,\"kasus_sembuh\":0,\"kasus_kematian\":0},{\"provinsi\":\"Sumatera Selatan\",\"kasus_positiv\":17,\"kasus_sembuh\":1,\"kasus_kematian\":2},{\"provinsi\":\"Nusa Tenggara Barat\",\"kasus_positiv\":16,\"kasus_sembuh\":2,\"kasus_kematian\":0},{\"provinsi\":\"Kalimantan Utara\",\"kasus_positiv\":16,\"kasus_sembuh\":0,\"kasus_kematian\":0},{\"provinsi\":\"Lampung\",\"kasus_positiv\":15,\"kasus_sembuh\":1,\"kasus_kematian\":1},{\"provinsi\":\"Sulawesi Tenggara\",\"kasus_positiv\":15,\"kasus_sembuh\":1,\"kasus_kematian\":0},{\"provinsi\":\"Riau\",\"kasus_positiv\":12,\"kasus_sembuh\":1,\"kasus_kematian\":0},{\"provinsi\":\"Kalimantan Barat\",\"kasus_positiv\":10,\"kasus_sembuh\":3,\"kasus_kematian\":2},{\"provinsi\":\"Sulawesi Utara\",\"kasus_positiv\":8,\"kasus_sembuh\":1,\"kasus_kematian\":1},{\"provinsi\":\"Aceh\",\"kasus_positiv\":6,\"kasus_sembuh\":1,\"kasus_kematian\":1},{\"provinsi\":\"Sulawesi Tengah\",\"kasus_positiv\":5,\"kasus_sembuh\":0,\"kasus_kematian\":2},{\"provinsi\":\"Kepulauan Bangka Belitung\",\"kasus_positiv\":3,\"kasus_sembuh\":0,\"kasus_kematian\":1},{\"provinsi\":\"Maluku\",\"kasus_positiv\":3,\"kasus_sembuh\":1,\"kasus_kematian\":0},{\"provinsi\":\"Jambi\",\"kasus_positiv\":2,\"kasus_sembuh\":0,\"kasus_kematian\":0},{\"provinsi\":\"Bengkulu\",\"kasus_positiv\":2,\"kasus_sembuh\":0,\"kasus_kematian\":1},{\"provinsi\":\"Sulawesi Barat\",\"kasus_positiv\":2,\"kasus_sembuh\":0,\"kasus_kematian\":0},{\"provinsi\":\"Maluku Utara\",\"kasus_positiv\":2,\"kasus_sembuh\":1,\"kasus_kematian\":0},{\"provinsi\":\"Papua Barat\",\"kasus_positiv\":2,\"kasus_sembuh\":0,\"kasus_kematian\":1},{\"provinsi\":\"Nusa Tenggara Timur\",\"kasus_positiv\":1,\"kasus_sembuh\":0,\"kasus_kematian\":0}]"
+				}
+			]
+		}
+	]
+}
