@@ -1,6 +1,6 @@
 # Api Covid-19
-Created By : Fu
+Created By : Aditya Raihan
 
 Built With Nodejs,ExpressJs,Axios
 
-Documentation : (soon)
+Documentation & Demo : https://api-covid-19.glitch.me
